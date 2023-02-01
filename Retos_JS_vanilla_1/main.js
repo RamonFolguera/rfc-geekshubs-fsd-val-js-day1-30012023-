@@ -1,26 +1,29 @@
 
 
-/* 1. Declara 2 variables numéricas (con el valor que desees), he indica cual es mayor
+/* 1. Declara 2 variables numéricas (con el valor que desees), e indica cual es mayor
 de los dos. Si son iguales indicarlo también. Ves cambiando los valores para
 comprobar que funciona. */
 
-let variable1 = 3;
-let variable2 = 3;
+let variable1 = 5;
+let variable2 = 4;
 
-if (variable1 > variable2) {
-    console.log("variable1 es mayor que variable2");
-} else if (variable1 < variable2) {
-    console.log("variable2 es mayor que variable1");
-} else {
-    console.log("variable1 y variable2 son iguales.")
-}
+// if (variable1 > variable2) {
+//     console.log("variable1 es mayor que variable2");
+// } else if (variable1 < variable2) {
+//     console.log("variable2 es mayor que variable1");
+// } else {
+//     console.log("variable1 y variable2 son iguales.")
+// }
+
+let resultado = (variable1 > variable2) ? "variable1 es mayor que variable2" : "variable2 es mayor que variable1";
+console.log(resultado);
 
 /* 2. Declara un String que contenga tu nombre, después muestra un mensaje de
 bienvenida por consola. Por ejemplo: si introduzco “Fernando”, me aparezca
 “Bienvenido Fernando”. */
 
-let miNombre = "Ramón"
-console.log("Bienvenido",miNombre);
+// let miNombre = "Ramón"
+// console.log("Bienvenido",miNombre);
 
 /* 3. Modifica la aplicación anterior, para que nos pida el nombre que queremos
 introducir (recuerda usar prompt). */
@@ -160,38 +163,38 @@ Los signos aritméticos disponibles son:
 ^: 1o operando como base y 2o como exponente.
 %: módulo, resto de la división entre operando1 y operando2. */
 
-let operando1 = parseFloat(prompt("Introduce operando 1"));
-let operando2 = parseFloat(prompt("Introduce operando 2"));
-let signoAritmetico = prompt("Introduce signo aritmético");
-let suma = operando1 + operando2;
-let resta = operando1 - operando2;
-let producto = operando1 * operando2;
-let division = operando1 / operando2;
-let exponencial = operando1**operando2;
-let modulo = operando1%operando2;
+// let operando1 = parseFloat(prompt("Introduce operando 1"));
+// let operando2 = parseFloat(prompt("Introduce operando 2"));
+// let signoAritmetico = prompt("Introduce signo aritmético");
+// let suma = operando1 + operando2;
+// let resta = operando1 - operando2;
+// let producto = operando1 * operando2;
+// let division = operando1 / operando2;
+// let exponencial = operando1**operando2;
+// let modulo = operando1%operando2;
 
-switch(signoAritmetico) {
-    case '+': 
-        alert(suma);
-        break;
-    case '-':
-        alert(resta);
-        break;
-    case '*':
-        alert(producto);
-        break
-    case '/':
-        alert(division);
-        break;
-    case '^':
-        alert(exponencial);
-        break;
-    case '%':
-        alert(modulo);
-        break;
-    default:
-        console.log("Pues ya estaría.")
-}
+// switch(signoAritmetico) {
+//     case '+': 
+//         alert(suma);
+//         break;
+//     case '-':
+//         alert(resta);
+//         break;
+//     case '*':  
+//         alert(producto);
+//         break
+//     case '/':
+//         alert(division);
+//         break;
+//     case '^':
+//         alert(exponencial);
+//         break;
+//     case '%':
+//         alert(modulo);
+//         break;
+//     default:
+//         console.log("Pues ya estaría.")
+// }
 
 
 
